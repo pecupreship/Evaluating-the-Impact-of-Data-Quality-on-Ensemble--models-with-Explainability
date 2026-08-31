@@ -7,8 +7,7 @@ Two models were tested:
 * Random Forest
 * XGBoost
 
-What I wanted to find out
-I was mainly interested in this:
+Research Question :
 Do preprocessing steps like outlier handling or imputation actually make a difference?
 
 And if they do:
@@ -37,7 +36,7 @@ Evaluation
 Results
 codes are not in modules, as you run the code, you get the result
 
-What I observed
+What I observed with a thusand dataset
 A few things stood out after running the experiments:
 Winsorization
 It helped a bit in some cases, especially for Random Forest. That makes sense since reducing extreme values can stabilize tree splits.
